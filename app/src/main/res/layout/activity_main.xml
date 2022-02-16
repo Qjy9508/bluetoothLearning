@@ -12,15 +12,30 @@
         android:orientation="vertical">
         <TextView
             android:id="@+id/tv_1"
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:gravity="center"
             android:textSize="20dp"
             android:text="Hello World!" />
-
+        <TextView
+            android:id="@+id/tv_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Hello World!" />
+        <TextView
+            android:id="@+id/tv_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Hello World!" />
         <Button
             android:id="@+id/btn_1"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="获取蓝牙Adapter" />
         <Button
@@ -67,7 +82,7 @@
     </LinearLayout>
     <ListView
         android:layout_width="wrap_content"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:id="@+id/lv_1">
     </ListView>
 <!--    <LinearLayout-->
